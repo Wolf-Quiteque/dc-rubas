@@ -1169,7 +1169,7 @@ p {
 
 .rac_menu_img {
     min-width: 100px;
-    height: 100px;
+    height: 350px;
     border-radius: var(--rac-border-radius);
     overflow: hidden;
 }
@@ -1186,7 +1186,7 @@ p {
 }
 
 .rac_menu_title h4 {
-    color: var(--rac-white-color);
+    color: white
 }
 
 .rac_menu_title h2 {
