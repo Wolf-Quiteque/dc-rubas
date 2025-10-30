@@ -1169,7 +1169,7 @@ p {
 
 .rac_menu_img {
     min-width: 100px;
-    height: 350px;
+    height: 300px;
     border-radius: var(--rac-border-radius);
     overflow: hidden;
 }
