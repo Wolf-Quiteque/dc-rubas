@@ -344,9 +344,7 @@ p {
     background-color: #202020;
 }
 
-.loader img {
-    width: 100px;
-}
+
 
 /********************************************************
     Button Style
@@ -824,7 +822,6 @@ p {
 
 .rac_offer_wrapper::before {
     content: " ";
-    background-image: url(../images/offer_shapes.webp);
     width: 100%;
     height: 100%;
     animation: 10s circlular linear infinite;
@@ -844,18 +841,6 @@ p {
     z-index: 1;
 }
 
-.rac_offer_img img {
-    animation: rotate 40s linear infinite;
-}
-
-@keyframes rotate {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
 
 .rac_offer_content {
     border: 1px solid var(--rac-border-color);
@@ -1025,7 +1010,6 @@ p {
 
 .rac_booking_wrapper::before {
     content: " ";
-    background-image: url(../images/booking_shapes.webp);
     width: 100%;
     height: 100%;
     animation: 10s circlular linear infinite;
@@ -1161,6 +1145,7 @@ p {
 
 .rac_menu_tab li .rac_btn {
     background: #202020;
+    color: var(--rac-white-color);
     border: 1px solid transparent;
 }
 
@@ -1168,7 +1153,7 @@ p {
 .rac_menu_tab li .rac_btn.active {
     background: var(--rac-primary-color);
     border: 1px solid var(--rac-primary-color);
-    color: var(--rac-white-color);
+    color: var(--rac-black-color);
 }
 
 .rac_tab_pane {
@@ -1571,7 +1556,6 @@ p {
 
 .rac_footer_wrapper::before {
     content: " ";
-    background-image: url(../images/footer_shapes.webp);
     width: 100%;
     height: 100%;
     animation: 10s circlular linear infinite;
